@@ -1,0 +1,62 @@
+.feedback-form {
+  flex-direction: column;
+}
+
+label {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+.message {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 360px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  resize: none;
+
+  transition: border 250ms ease-in-out;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.email:hover,
+.message:hover {
+  border: 1px solid #000;
+}
+
+.email:focus,
+.message:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.submit-btn {
+  border: none;
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  color: #fff;
+  transition: background-color 250ms ease-in-out;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #6c8cff;
+}
